@@ -47,6 +47,4 @@ def step_user_logged_in_or_sees_another_session_page(context):
         assert 'Product Selection' in success_message
 
 
-@then(u'the user clicks "Enter" to continue if the another session page is visible')
-def step_impl(context):
-    pass
+
