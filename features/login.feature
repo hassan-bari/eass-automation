@@ -1,4 +1,4 @@
-Feature: Login Functionality2
+Feature: Login Functionality22
 
   Scenario: User logs in with valid credentials
     Given the user is on the login page
