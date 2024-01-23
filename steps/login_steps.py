@@ -8,7 +8,7 @@ from config.config import Config
 
 @given('the user is on the login page')
 def step_user_on_login_page(context):
-    context.driver.get(Config.BASE_URL)
+    context.driver.get(Config.BASE_URL)git
     wait = WebDriverWait(context.driver, 10)
     wait.until(EC.visibility_of_element_located((By.NAME, 'email')))
 
